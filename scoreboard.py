@@ -21,4 +21,4 @@ class Scoreboard(Turtle):
     def gameover(self, winner):
         self.clear()
         self.goto(0, 0)
-        self.write(f"{winner} side wins the game!", align="center", font=FONT)
+        self.write(f"{winner} side wins the game!", align="center", font=END_FONT)
